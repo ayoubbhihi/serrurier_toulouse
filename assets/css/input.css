@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-call {
+        @apply flex items-center gap-2
+        font-medium md:font-semibold
+        text-sm md:text-base
+        rounded-lg
+        py-3 md:py-[10px]
+        px-3 md:px-4
+        bg-primary text-white shadow;
+    };
+    .btn-call__icon {
+        @apply w-5 h-5 md:w-6 md:h-6;
+      };
+  }
+
+  
