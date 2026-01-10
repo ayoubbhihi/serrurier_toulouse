@@ -2854,6 +2854,11 @@ html:has(.drawer-toggle:checked) {
   padding-right: 0.75rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -3183,6 +3188,10 @@ html:has(.drawer-toggle:checked) {
 @media (min-width: 768px) {
   .md\:block {
     display: block;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
   }
 
   .md\:flex {
