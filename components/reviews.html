@@ -28,8 +28,8 @@
                         </div>
                     </div>
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="inline-flex badge-verified  items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                         Avis vérifié
                     </span>
                 </div>
 
@@ -56,8 +56,8 @@
                         </div>
                     </div>
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="inline-flex badge-verified  items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                         Avis vérifié
                     </span>
                 </div>
 
@@ -84,8 +84,8 @@
                         </div>
                     </div>
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="inline-flex badge-verified  items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                         Avis vérifié
                     </span>
                 </div>
 
@@ -112,8 +112,8 @@
                         </div>
                     </div>
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="inline-flex badge-verified  items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                         Avis vérifié
                     </span>
                 </div>
 
@@ -140,8 +140,8 @@
                         </div>
                     </div>
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="inline-flex badge-verified  items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                        Avis vérifié
                     </span>
                 </div>
 
@@ -172,8 +172,8 @@
                     </div>
 
                     <span
-                        class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
-                        ✔ Avis vérifié
+                        class="badge-verified  inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700">
+                        Avis vérifié
                     </span>
 
                 </div>
@@ -190,4 +190,32 @@
         </div>
 
     </div>
+
+    <style>
+        .badge-verified {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.5rem 0.25rem 1.4rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #15803d;
+            /* green-700 */
+            background-color: #ecfdf5;
+            /* green-50 */
+            border-radius: 9999px;
+            position: relative;
+        }
+
+        .badge-verified::before {
+            content: "";
+            position: absolute;
+            left: 0.45rem;
+            width: 0.75rem;
+            height: 0.75rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2315803d'%3E%3Cpath fill-rule='evenodd' d='M16.704 5.29a1 1 0 010 1.415l-7.071 7.071a1 1 0 01-1.414 0L3.296 8.854a1 1 0 011.414-1.415l3.216 3.217 6.364-6.364a1 1 0 011.414 0z' clip-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
 </div>

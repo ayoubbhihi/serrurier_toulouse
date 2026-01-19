@@ -1858,6 +1858,12 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 0;
 }
 
+.mockup-phone .display {
+  overflow: hidden;
+  border-radius: 40px;
+  margin-top: -25px;
+}
+
 .mockup-browser .mockup-browser-toolbar .input {
   position: relative;
   margin-left: auto;
@@ -2459,6 +2465,10 @@ html:has(.drawer-toggle:checked) {
   height: 1px;
 }
 
+.h-3\.5 {
+  height: 0.875rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -2509,6 +2519,10 @@ html:has(.drawer-toggle:checked) {
 
 .w-full {
   width: 100%;
+}
+
+.w-3\.5 {
+  width: 0.875rem;
 }
 
 .max-w-2xl {
